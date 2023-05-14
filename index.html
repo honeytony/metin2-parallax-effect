@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="lib/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="./lib/particles.js" defer></script>
+        <!-- Swiper JS -->
+        <script src="./lib/swiper-bundle.min.js" defer></script>
+        <script src="js/script.js" defer></script>
+        <title>Metin2 Parallax</title>
+    </head>
+    <body>
+        <div class="swipper mySwiper slider">
+            <div class="swiper-wrapper slider__wrapper">
+                <div class="swiper-slide slide__item">
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="36%"
+                        style="background-image: url('sourse/first/layer-background.png')"
+                    ></div>
+                    <div
+                        class="slider__layer logotype"
+                        data-swiper-parallax="100%"
+                        style="background-image: url('sourse/logo.png'); left: 15%"
+                    ></div>
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="15%"
+                        style="background-image: url('sourse/first/layer-middle.png')"
+                    ></div>
+                    <canvas
+                        class="particles slider-layer"
+                        data-swiper-parallax="18%"
+                        data-color="#fff697"
+                    ></canvas>
+                    <div
+                        class="slider__layer front__layer"
+                        data-swiper-parallax="10%"
+                        style="background-image: url('sourse/first/layer-front.png')"
+                    ></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="35%"
+                        style="background-image: url('sourse/second/layer_background.png')"
+                    ></div>
+
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="25%"
+                        style="background-image: url('sourse/second/layer_middle.png')"
+                    ></div>
+                    <div
+                        class="slider__layer logotype"
+                        data-swiper-parallax="100%"
+                        style="background-image: url('sourse/logo.png'); top: 0; right: 0"
+                    ></div>
+                    <canvas class="particles slider-layer" data-color="#ffe1c5"></canvas>
+                    <div
+                        class="slider__layer front__layer"
+                        data-swiper-parallax="12%"
+                        style="background-image: url('sourse/second/layer_front.png')"
+                    ></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="50%"
+                        style="background-image: url('sourse/third/background-layer.png')"
+                    ></div>
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="49%"
+                        style="background-image: url('sourse/third/columns-layer.png')"
+                    ></div>
+                    <div
+                        class="slider__layer"
+                        data-swiper-parallax="20%"
+                        style="background-image: url('sourse/third/middle-layer.png')"
+                    ></div>
+                    <div
+                        class="slider__layer logotype"
+                        data-swiper-parallax="100%"
+                        style="background-image: url('sourse/logo.png'); left: 10%"
+                    ></div>
+                    <canvas
+                        class="particles slider-layer"
+                        data-swiper-parallax="16%"
+                        data-color="#df575b"
+                    ></canvas>
+                    <div
+                        class="slider__layer front__layer"
+                        data-swiper-parallax="4%"
+                        style="background-image: url('sourse/third/front-layer.png')"
+                    ></div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </body>
+</html>
